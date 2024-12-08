@@ -8,4 +8,4 @@ AppLogger Logger = new AppLogger(Writer);
 Logger.WriteLog("Aplication Started.");
 
 ProductService Service = new ProductService(Writer);
-Service.Add("Demo", "Azucar Refinada");
+Service.add("Demo","Azucar Refinada");
