@@ -1,7 +1,7 @@
 ﻿using NorthWind.ConsoleApp.Services;
 using NorthWind.Entities.Interfaces;
 
-IUserActionWriter Writer = default;
+IUserActionWriter Writer = new ConsoleWriter();
 
 AppLogger Logger = new AppLogger(Writer);
 Logger.WriteLog("Aplication Started.");
